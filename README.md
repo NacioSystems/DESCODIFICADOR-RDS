@@ -62,6 +62,8 @@ La caja soporte está realizada a través de impresión en 3D, con PLA. Los mode
 
 Está pendiente incluir una antena telescópica fija, para no depender de los auriculares. También un pequeño amplificador con altavoz para escuchar la señal emitida sin auriculares. Implementar el cambio automático de emisora a través de las frecuencias alternativas y el código PI, cuando la calidad de recepción se reduce.
 
+Otra funcionalidad es la cambiar el Arduino UNO por un NodeMCU ESP8266. De esta manera nos ahorramos la placa adaptadora de niveles al funcionar todo a 3,3V y  podremos hacer una gestión y control remoto de todo el dispositivo a través de TCP/IP por Wifi.
+
 ### Autor:
 
 **Ignacio Otero**
