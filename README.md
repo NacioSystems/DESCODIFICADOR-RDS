@@ -9,13 +9,13 @@ Fecha: enero 2018
 
 ### Indroducción:
 
-A través de un Arduino UNO se controla el receptor de FM con RDS Si-4703. El conjunto se controla con una bononera y desplay de la placa LCD KeyPad, además de un encoder rotativo. El Arduino UNO funciona con lógica a 5V, mientras que el Si-4703 funciona a 3.3V, por ello es necesaria un a placa adaptadora de niveles. Todo está montado sobre una caja impresa en 3D, incluyendo cuatro pilas AA de 1,5V. Es necesario disponer de unos auriculares con jack de 3,5, para las funciones de antena y poder escuchar los contenidos estereofónicos.
+A través de un Arduino UNO se controla el receptor de FM con RDS Si-4703. El conjunto se complementa con una bononera y display de la placa LCD KeyPad, además de un encoder rotativo. El Arduino UNO funciona con lógica a 5V, mientras que el Si-4703 funciona a 3.3V, por ello es necesaria una placa adaptadora de niveles. Todo está montado sobre una caja impresa en 3D, incluyendo cuatro pilas AA de 1,5V. Es necesario disponer de unos auriculares con jack de 3,5, para las funciones de antena y poder escuchar los contenidos estereofónicos.
 
 Tambien funciona sin baterías, conectando el puerto USB a una fuente de alimentación.
 
 A través de la botonera se pude pasar de una frecuencia a otra, mediante escaneo o por pasos de 100KHz. En el display nos indicará la frecuelncia de recepción y en caso de disponer de servicios RDS nos indicará el PI de la emisora y su nombre. También se indica el nivel de recepción de la señal radio en bornas del conector de antena/auriculares, en dBuV. Dependiendo del modo, el encoder rotativo servirá par subir bajar el volumen, que es la función principal, pero puede funcionar para subir y bajar frecuencias. Cuando una emisora está bien sintonizada se activará el LED indicando la recepcón estereofónica. Las pulsaciones de la botonera y el encoder generan un pequeño bip en el buzzer, confirmando que la tecla se ha pulsado correctamente.
 
-No sólo es una radio convencional, es un descodificador de señal RDS. Entre otras cosas aporta la siguiente información, tanto por el dsplay LCD como a través del puerto serie, este último más completo:
+No sólo es una radio convencional, es un descodificador de señal RDS, aportando la información en diferentes pantallas y módos, seleccionables con los bonones "up" y "down". Entre otras cosas aporta la siguiente información, tanto por el dsplay LCD como a través del puerto serie, este último más completo:
 
 * PI código hexadecimal de identificación de programa
 * PS nombre de la emisora de radio o programa musical
@@ -23,13 +23,13 @@ No sólo es una radio convencional, es un descodificador de señal RDS. Entre ot
 * TA si se están dando contenidos de anuncio de tráfico
 * M/S si es música o palabra lo emitido
 * PTY la identificación de tipo de programa, noticias, música,...
-* RTX el radiotexto que pueda estar emitiendo la emisora
-* N número de frecuencias alternativas
+* RTX el radiotexto que pueda estar emitiendo la emisora A/B
+* N, número de frecuencias alternativas
 * AF frecuencias alternativas de la emisión y nivel de recepción de cada frecuencia
-* GA/B informacíon estadística sobre los paquetes y grupos emitidos en RDS
+* G A/B informacíon estadística sobre los paquetes y grupos emitidos en RDS
 * Hora UTC, Información de la fecha y hora transmitida, en caso de emitirla.
 
-
+Otra funcionalidad que contempla es la grabación en la memoria EEPROM del Arduiono UNO de 10 memorias con las emisoras favoritas. Por defecto incluye 10 memorias ya cargadas del entorno de Santiago de Compostela, pero a través del teclado permite guardar en cada posición de memoria datos de nuevas emisoras.
 
 ### Materiales electrónicos:
 
@@ -57,6 +57,10 @@ La caja soporte está realizada a través de impresión en 3D, con PLA. Los mode
 [10]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/tapa.stl
 
 ![Caja 3D](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Diseno3D.JPG "Diseño caja 3D")
+
+### Mejoras pendientes:
+
+Está pendiente incluir una antena telescópica fija, para no depender de los auriculares. También un pequeño amplificador con altavoz para escuchar la señal emitida sin auriculares. Implementar el cambio automático de emisora a través de las frecuencias alternativas y el código PI, cuando la calidad de recepción se reduce.
 
 ### Autor:
 
