@@ -15,7 +15,7 @@ Tambien funciona sin baterías, conectando el puerto USB a una fuente de aliment
 
 A través de la botonera se pude pasar de una frecuencia a otra, mediante escaneo o por pasos de 100KHz. En el display nos indicará la frecuelncia de recepción y en caso de disponer de servicios RDS nos indicará el PI de la emisora y su nombre. También se indica el nivel de recepción de la señal radio en bornas del conector de antena/auriculares, en dBuV. Dependiendo del modo, el encoder rotativo servirá par subir bajar el volumen, que es la función principal, pero puede funcionar para subir y bajar frecuencias. Cuando una emisora está bien sintonizada se activará el LED indicando la recepcón estereofónica. Las pulsaciones de la botonera y el encoder generan un pequeño bip en el buzzer, confirmando que la tecla se ha pulsado correctamente.
 
-No sólo es una radio convencional, es un descodificador de señal RDS, aportando la información en diferentes pantallas y módos, seleccionables con los bonones "up" y "down". Entre otras cosas aporta la siguiente información, tanto por el dsplay LCD como a través del puerto serie, este último más completo:
+No sólo es una radio convencional, es un descodificador de señal RDS, aportando la información en diferentes pantallas y modos, seleccionables con los bonones "up" y "down". Entre otras cosas aporta la siguiente información, tanto por el dsplay LCD como a través del puerto serie, este último más completo:
 
 * PI código hexadecimal de identificación de programa
 * PS nombre de la emisora de radio o programa musical
@@ -29,7 +29,7 @@ No sólo es una radio convencional, es un descodificador de señal RDS, aportand
 * G A/B informacíon estadística sobre los paquetes y grupos emitidos en RDS
 * Hora UTC, Información de la fecha y hora transmitida, en caso de emitirla.
 
-Otra funcionalidad que contempla es la grabación en la memoria EEPROM del Arduiono UNO de 10 memorias con las emisoras favoritas. Por defecto incluye 10 memorias ya cargadas del entorno de Santiago de Compostela, pero a través del teclado permite guardar en cada posición de memoria datos de nuevas emisoras.
+Otra funcionalidad que contempla es la grabación en la memoria EEPROM del Arduino UNO de 10 memorias con las emisoras favoritas. Por defecto incluye 10 memorias ya cargadas de frecuencias del entorno de Santiago de Compostela, pero a través del teclado permite guardar en cada posición de memoria datos de nuevas emisoras.
 
 ### Materiales electrónicos:
 
