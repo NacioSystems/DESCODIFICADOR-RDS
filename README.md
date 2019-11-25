@@ -56,7 +56,7 @@ La caja soporte está realizada a través de impresión en 3D, con PLA. Los mode
 [9]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/botones.stl
 [10]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/tapa.stl
 
-![Caja 3D](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Caja3D.JPG "Diseño caja 3D")
+![Caja 3D](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Diseno3D.JPG "Diseño caja 3D")
 
 ### Autor:
 
