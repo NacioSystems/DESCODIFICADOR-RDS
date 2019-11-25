@@ -5,6 +5,8 @@
 Versión 1.0
 Fecha: enero 2018
 
+![DESCO RDS](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Montaje.jpg "Desco RDS")
+
 ### Indroducción:
 
 A través de un Arduino UNO se controla el receptor de FM con RDS Si-4703. El conjunto se controla con una bononera y desplay de la placa LCD KeyPad, además de un encoder rotativo. El Arduino UNO funciona con lógica a 5V, mientras que el Si-4703 funciona a 3.3V, por ello es necesaria un a placa adaptadora de niveles. Todo está montado sobre una caja impresa en 3D, incluyendo cuatro pilas AA de 1,5V. Es necesario disponer de unos auriculares con jack de 3,5, para las funciones de antena y poder escuchar los contenidos estereofónicos.
@@ -40,6 +42,8 @@ No sólo es una radio convencional, es un descodificador de señal RDS. Entre ot
 * [Buzzer][7]
 * Otro pequeño material como diodo LED, interruptor endendido, cables...
 
+![Prototipado](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Baja%20resolucion/Prototipo2.jpg "Prototipado")
+
 ### Piezas impresas:
 
 La caja soporte está realizada a través de impresión en 3D, con PLA. Los modelos STL se pueden descargar del repositorio:
@@ -51,6 +55,8 @@ La caja soporte está realizada a través de impresión en 3D, con PLA. Los mode
 [8]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/DescoRDS.stl
 [9]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/botones.stl
 [10]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/tapa.stl
+
+![Caja 3D](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Caja3D.JPG "Diseño caja 3D")
 
 ### Autor:
 
