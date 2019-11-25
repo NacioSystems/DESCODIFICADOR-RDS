@@ -47,6 +47,7 @@ La caja soporte está realizada a través de impresión en 3D, con PLA. Los mode
 * [Caja principal][8]
 * [Botonera][9]
 * [Tapa posterior][10]
+
 [8]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/DescoRDS.stl
 [9]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/botones.stl
 [10]: https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Modelos%203D/tapa.stl
