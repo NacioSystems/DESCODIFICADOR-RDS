@@ -78,7 +78,7 @@ Gracias también a [**Spark Fun Electronics**][4], de quien aprovecho las librer
 
 Todos estos productos están liberados mediante Creative Commons Attribution-ShareAlike 4.0 International License.
 
-[1]: http://j-rpm.com/
+[1]: http://j-rpm.com/category/fundamentos-de-la-transmision-fm/page/3/
 [2]: https://store.arduino.cc/arduino-uno-rev3
 [3]: https://www.amazon.es/Aptotec-Keypad-Arduino-Mega2560-Duemilanove/dp/B01BI6UKHW/ref=sr_1_fkmr1_1?adgrpid=55044401886&gclid=CjwKCAiAlO7uBRANEiwA_vXQ-8poL89WK_BCXPjUbC35tp92i_Hjc4qCP3N4zbFsbQ-p1g6ebLKiCRoChUAQAvD_BwE&hvadid=275347219637&hvdev=c&hvlocphy=1005483&hvnetw=g&hvpos=1o1&hvqmt=e&hvrand=16829546787644630856&hvtargid=kwd-329815121004&hydadcr=28887_1774500&keywords=lcd+keypad+arduino&qid=1574682044&sr=8-1-fkmr1
 [4]: https://learn.sparkfun.com/tutorials/si4703-fm-radio-receiver-hookup-guide/all
