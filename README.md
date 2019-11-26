@@ -5,7 +5,7 @@
 Versión 1.0
 Fecha: enero 2018
 
-![DESCO RDS](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/Montaje.jpg "Desco RDS")
+![DESCO RDS](https://github.com/NacioSystems/DESCODIFICADOR-RDS/blob/master/Fotos/DescoRDS.JPG "Desco RDS")
 
 ### Indroducción:
 
